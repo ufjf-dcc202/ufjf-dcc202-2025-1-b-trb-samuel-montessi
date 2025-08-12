@@ -5,3 +5,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#picareta,
+#foice,
+#regador,
+#enxada,
+#s1,
+#s2,
+#s3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: gold;
+  width: 54px;
+  height: 54px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
