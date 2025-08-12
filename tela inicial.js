@@ -10,3 +10,7 @@ creditos.addEventListener("click", () => {
 fechar.addEventListener("click", ()=>{
     mensagem.style.display = "none";
 })
+
+comecar.addEventListener("click",()=> {
+    window.location.href = "main.html"
+})
