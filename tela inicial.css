@@ -60,3 +60,13 @@ body {
   height: 360px;
   background-repeat: no-repeat;
 }
+
+#Fechar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    background-image: url(sprites/Botão\ fechar.png);
+    background-repeat: no-repeat;
+}
