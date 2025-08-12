@@ -29,3 +29,14 @@ body {
 #Start:hover {
   background-image: url(sprites/Botão\ start\ selecionado.png);
 }
+
+#Creditos {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  width: 150px;
+  height: 74px;
+  background-image: url(sprites/Botão\ créditos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
