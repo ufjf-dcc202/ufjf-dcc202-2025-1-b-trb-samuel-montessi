@@ -6,3 +6,7 @@ const fechar = document.getElementById("Fechar");
 creditos.addEventListener("click", () => {
     mensagem.style.display = "block";
 });
+
+fechar.addEventListener("click", ()=>{
+    mensagem.style.display = "none";
+})
