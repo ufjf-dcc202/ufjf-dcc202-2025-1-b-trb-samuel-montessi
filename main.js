@@ -8,3 +8,6 @@ const botaoCenoura = document.getElementById("s3");
 const sementesBatata = document.getElementById("q1");
 const sementesAlho = document.getElementById("q2");
 const sementesCenoura = document.getElementById("q3");
+const batata = document.getElementById("batata");
+const alho = document.getElementById("alho");
+const cenoura = document.getElementById("cenoura");
