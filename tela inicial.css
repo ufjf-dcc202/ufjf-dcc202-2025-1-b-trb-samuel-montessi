@@ -4,7 +4,8 @@ body {
   background-repeat: no-repeat;
    height: 100vh;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
 }
 
 #Logo{
@@ -44,3 +45,4 @@ body {
 #Creditos:hover {
   background-image: url(sprites/Botão\ créditos\ selecionado.png);
 }
+
