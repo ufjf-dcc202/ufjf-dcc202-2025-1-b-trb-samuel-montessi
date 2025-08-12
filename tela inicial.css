@@ -2,4 +2,16 @@ body {
   background-image: url(sprites/Tela\ inicial.png);
   background-size: cover;
   background-repeat: no-repeat;
+   height: 100vh;
+  display: flex;
+
+}
+
+#Logo{
+  background-image: url(sprites/Logo.png);
+  place-items: center;
+  background-size: contain;
+  width: 900px;
+  height: 600px;
+  background-repeat: no-repeat;
 }
