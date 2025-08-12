@@ -46,3 +46,17 @@ body {
   background-image: url(sprites/Botão\ créditos\ selecionado.png);
 }
 
+#MensagemCreditos {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(sprites/Carta.png);
+  background-size: contain;
+  width: 640px;
+  height: 360px;
+  background-repeat: no-repeat;
+}
