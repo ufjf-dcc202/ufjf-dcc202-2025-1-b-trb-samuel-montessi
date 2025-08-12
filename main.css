@@ -32,3 +32,59 @@ body {
   padding: 0;
   overflow: hidden;
 }
+
+#s1 {
+  background-image: url(sprites/Batata\ item.png);
+}
+
+#s2 {
+  background-image: url(sprites/alho\ botao.png);
+}
+
+#s3 {
+  background-image: url(sprites/cenoura\ botao.png);
+}
+
+#picareta {
+  background-image: url(sprites/Picareta.png);
+}
+
+#enxada {
+  background-image: url(sprites/enxada.png);
+}
+
+#foice {
+  background-image: url(sprites/foice.png);
+}
+
+#regador {
+  background-image: url(sprites/regador.png);
+}
+
+#picareta:hover {
+  background-image: url(sprites/Picareta\ selecionada.png);
+}
+
+#enxada:hover {
+  background-image: url(sprites/enxada\ selecionada.png);
+}
+
+#regador:hover {
+  background-image: url(sprites/regador\ selecionado.png);
+}
+
+#foice:hover {
+  background-image: url(sprites/foice\ selecionada.png);
+}
+
+#s1:hover {
+  background-image: url(sprites/batata\ item\ selecionado.png);
+}
+
+#s2:hover {
+  background-image: url(sprites/alho\ botao\ selecionado.png);
+}
+
+#s3:hover {
+  background-image: url(sprites/cenoura\ botao\ selecionado.png);
+}
