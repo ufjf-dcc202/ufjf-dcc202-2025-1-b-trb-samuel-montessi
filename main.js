@@ -17,3 +17,16 @@ let c = 12;
 let espaco = 0;
 const celulas = [];
 
+for (let i = 0; i < 144; i++) {
+  const celula = document.createElement("span");
+  const linha = Math.floor(i / c);
+  const coluna = i % c;
+
+  if ((linha + coluna) % 2 === 0) {
+    celula.classList.add("erva");
+  } else {
+    celula.classList.add("pedra");
+  }
+  plantacao.appendChild(celula);
+  celulas.push(celula);
+}
