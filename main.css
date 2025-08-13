@@ -210,3 +210,23 @@ body {
   text-align: center;
   margin: 0;
 }
+
+#dias {
+  width: 213px;
+  height: 120px;
+  position: absolute;
+  top: 40px;
+  right: 130px;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(sprites/dias.png);
+}
+
+#dia {
+  text-indent: 1em;
+}
