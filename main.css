@@ -124,3 +124,33 @@ body {
   align-items: center;
   height: 100%;
 }
+
+#batata {
+  background-image: url(sprites/Sementes\ batata.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width: 64px;
+  height: 64px;
+}
+
+#alho {
+  background-image: url(sprites/Sementes\ alho.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width: 64px;
+  height: 64px;
+}
+
+#cenoura {
+  background-image: url(sprites/Sementes\ cenoura.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width: 64px;
+  height: 64px;
+}
