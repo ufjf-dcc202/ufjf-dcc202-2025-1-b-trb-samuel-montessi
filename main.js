@@ -12,3 +12,8 @@ const batata = document.getElementById("batata");
 const alho = document.getElementById("alho");
 const cenoura = document.getElementById("cenoura");
 const plantacao = document.getElementById("Plantacao");
+
+let c = 12;
+let espaco = 0;
+const celulas = [];
+
