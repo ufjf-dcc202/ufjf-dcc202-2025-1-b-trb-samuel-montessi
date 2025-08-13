@@ -12,6 +12,13 @@ const batata = document.getElementById("batata");
 const alho = document.getElementById("alho");
 const cenoura = document.getElementById("cenoura");
 const plantacao = document.getElementById("Plantacao");
+let money = 500;
+let day = 1;
+let potato_seeds = 0;
+let garlic_seeds = 0;
+let carrot_seeds = 0;
+let ferramentaSelecionada = null;
+let sementeSelecionada = null;
 
 let c = 12;
 let espaco = 0;
@@ -30,3 +37,4 @@ for (let i = 0; i < 144; i++) {
   plantacao.appendChild(celula);
   celulas.push(celula);
 }
+
