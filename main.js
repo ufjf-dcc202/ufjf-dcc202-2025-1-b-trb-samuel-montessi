@@ -19,6 +19,15 @@ let garlic_seeds = 0;
 let carrot_seeds = 0;
 let ferramentaSelecionada = null;
 let sementeSelecionada = null;
+atualiza();
+
+function atualiza() {
+  dinheiro.textContent = money;
+  dia.textContent = day;
+  sementesBatata.textContent = potato_seeds;
+  sementesAlho.textContent = garlic_seeds;
+  sementesCenoura.textContent = carrot_seeds;
+}
 
 let c = 12;
 let espaco = 0;
