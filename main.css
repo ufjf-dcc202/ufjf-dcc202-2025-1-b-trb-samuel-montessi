@@ -103,3 +103,17 @@ body {
   grid-template-rows: repeat(12, 48px);
   border: 2px solid black;
 }
+
+.erva {
+  background-image: url(sprites/erva.png);
+  background-color: #21b600;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pedra {
+  background-image: url(sprites/pedra.png);
+  background-color: #21b600;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
