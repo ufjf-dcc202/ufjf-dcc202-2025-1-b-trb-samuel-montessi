@@ -230,3 +230,19 @@ body {
 #dia {
   text-indent: 1em;
 }
+
+#dinheiro {
+  width: 260px;
+  height: 60px;
+  position: absolute;
+  top: 170px;
+  right: 40px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(sprites/dinheiro.png);
+}
