@@ -88,3 +88,9 @@ body {
 #s3:hover {
   background-image: url(sprites/cenoura\ botao\ selecionado.png);
 }
+
+.itens {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+}
