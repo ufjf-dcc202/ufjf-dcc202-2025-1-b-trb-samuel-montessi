@@ -155,6 +155,18 @@ body {
   height: 64px;
 }
 
+#batata:hover {
+  background-image: url(sprites/Sementes\ batata\ selecionado.png);
+}
+
+#alho:hover {
+  background-image: url(sprites/Sementes\ alho\ selecionado.png);
+}
+
+#cenoura:hover {
+  background-image: url(sprites/Sementes\ cenoura\ selecionado.png);
+}
+
 #q1,
 #q2,
 #q3 {
