@@ -47,3 +47,26 @@ for (let i = 0; i < 144; i++) {
   celulas.push(celula);
 }
 
+batata.addEventListener("click", () => {
+  if (money >= 5) {
+    money -= 5;
+    potato_seeds += 1;
+    atualiza();
+  }
+});
+
+alho.addEventListener("click", () => {
+  if (money >= 3) {
+    money -= 3;
+    garlic_seeds += 1;
+    atualiza();
+  }
+});
+
+cenoura.addEventListener("click", () => {
+  if (money >= 4) {
+    money -= 4;
+    carrot_seeds += 1;
+    atualiza();
+  }
+});
