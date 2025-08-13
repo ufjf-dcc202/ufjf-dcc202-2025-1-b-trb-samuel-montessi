@@ -11,3 +11,4 @@ const sementesCenoura = document.getElementById("q3");
 const batata = document.getElementById("batata");
 const alho = document.getElementById("alho");
 const cenoura = document.getElementById("cenoura");
+const plantacao = document.getElementById("Plantacao");
