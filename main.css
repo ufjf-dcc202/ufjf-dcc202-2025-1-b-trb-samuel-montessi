@@ -154,3 +154,14 @@ body {
   width: 64px;
   height: 64px;
 }
+
+#q1,
+#q2,
+#q3 {
+  position: absolute;
+  bottom: 2px;
+  right: 4px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
