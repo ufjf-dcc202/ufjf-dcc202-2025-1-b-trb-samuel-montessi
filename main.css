@@ -94,3 +94,12 @@ body {
   bottom: 40px;
   display: flex;
 }
+
+#Plantacao {
+  display: grid;
+  width: 576px;
+  height: 576px;
+  grid-template-columns: repeat(12, 48px);
+  grid-template-rows: repeat(12, 48px);
+  border: 2px solid black;
+}
