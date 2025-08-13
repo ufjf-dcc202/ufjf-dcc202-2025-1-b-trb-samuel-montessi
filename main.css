@@ -194,3 +194,19 @@ body {
 #relogio:hover {
   background-image: url(sprites/relógio\ selecionado.png);
 }
+
+.sementes {
+  width: 83px;
+  height: 360px;
+  align-items: center;
+  background-image: url(sprites/loja.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 40px;
+}
+
+.sementes > p {
+  text-align: center;
+  margin: 0;
+}
