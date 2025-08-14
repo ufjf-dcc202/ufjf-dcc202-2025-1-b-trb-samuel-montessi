@@ -91,7 +91,7 @@ body {
 
 .itens {
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   display: flex;
 }
 
