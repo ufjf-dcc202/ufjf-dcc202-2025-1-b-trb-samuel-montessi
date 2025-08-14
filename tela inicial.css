@@ -19,7 +19,7 @@ body {
 
 #Start {
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   background-image: url(sprites/Botão\ start.png);
   width: 148px;
   height: 116px;
@@ -33,7 +33,7 @@ body {
 
 #Creditos {
   position: absolute;
-  bottom: 30px;
+  bottom: 0px;
   right: 20px;
   width: 150px;
   height: 74px;
