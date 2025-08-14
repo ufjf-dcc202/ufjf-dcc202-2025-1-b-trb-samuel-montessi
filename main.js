@@ -129,6 +129,61 @@ foice.addEventListener("click", () => {
 });
 
 relogio.addEventListener("click", () => {
+  for (let i = 0; i < 144; i++) {
+    if (
+      celulas[i].classList.contains("potato1") ||
+      celulas[i].classList.contains("potato2") ||
+      celulas[i].classList.contains("potato3") ||
+      celulas[i].classList.contains("potato4") ||
+      celulas[i].classList.contains("potato5") ||
+      celulas[i].classList.contains("garlic1") ||
+      celulas[i].classList.contains("garlic2") ||
+      celulas[i].classList.contains("garlic3") ||
+      celulas[i].classList.contains("garlic4") ||
+      celulas[i].classList.contains("carrot1") ||
+      celulas[i].classList.contains("carrot2") ||
+      celulas[i].classList.contains("carrot3")
+    ) {
+      celulas[i].classList.remove(...celulas[i].classList);
+      celulas[i].classList.add("arado");
+    } else if (celulas[i].classList.contains("potato1R")) {
+      celulas[i].classList.remove("potato1R");
+      celulas[i].classList.add("potato2");
+    } else if (celulas[i].classList.contains("potato2R")) {
+      celulas[i].classList.remove("potato2R");
+      celulas[i].classList.add("potato3");
+    } else if (celulas[i].classList.contains("potato3R")) {
+      celulas[i].classList.remove("potato3R");
+      celulas[i].classList.add("potato4");
+    } else if (celulas[i].classList.contains("potato4R")) {
+      celulas[i].classList.remove("potato4R");
+      celulas[i].classList.add("potato5");
+    } else if (celulas[i].classList.contains("potato5R")) {
+      celulas[i].classList.remove("potato5R");
+      celulas[i].classList.add("potato6");
+    } else if (celulas[i].classList.contains("garlic1R")) {
+      celulas[i].classList.remove("garlic1R");
+      celulas[i].classList.add("garlic2");
+    } else if (celulas[i].classList.contains("garlic2R")) {
+      celulas[i].classList.remove("garlic2R");
+      celulas[i].classList.add("garlic3");
+    } else if (celulas[i].classList.contains("garlic3R")) {
+      celulas[i].classList.remove("garlic3R");
+      celulas[i].classList.add("garlic4");
+    } else if (celulas[i].classList.contains("garlic4R")) {
+      celulas[i].classList.remove("garlic4R");
+      celulas[i].classList.add("garlic5");
+    } else if (celulas[i].classList.contains("carrot1R")) {
+      celulas[i].classList.remove("carrot1R");
+      celulas[i].classList.add("carrot2");
+    } else if (celulas[i].classList.contains("carrot2R")) {
+      celulas[i].classList.remove("carrot2R");
+      celulas[i].classList.add("carrot3");
+    } else if (celulas[i].classList.contains("carrot3R")) {
+      celulas[i].classList.remove("carrot3R");
+      celulas[i].classList.add("carrot4");
+    }
+  }
   day += 1;
   atualiza();
 });
