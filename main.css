@@ -104,20 +104,6 @@ body {
   border: 2px solid black;
 }
 
-.erva {
-  background-image: url(sprites/erva.png);
-  background-color: #21b600;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pedra {
-  background-image: url(sprites/pedra.png);
-  background-color: #21b600;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .malha {
   display: flex;
   justify-content: center;
@@ -261,6 +247,44 @@ body {
   100% {
     color: black;
   }
+}
+
+.arado,
+.erva,
+.grama,
+.pedra,
+.potato1,
+.potato2,
+.potato3,
+.potato4,
+.potato5,
+.potato6,
+.garlic1,
+.garlic2,
+.garlic3,
+.garlic4,
+.garlic5,
+.carrot1,
+.carrot2,
+.carrot3,
+.carrot4 {
+  border: 0.5px solid gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.erva {
+  background-image: url(sprites/erva.png);
+  background-color: #21b600;
+}
+
+.pedra {
+  background-image: url(sprites/pedra.png);
+  background-color: #21b600;
+}
+
+.grama {
+  background-image: url(sprites/solo\ grama.png);
 }
 
 .arado {
