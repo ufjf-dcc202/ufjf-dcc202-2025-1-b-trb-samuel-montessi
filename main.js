@@ -15,6 +15,13 @@ const plantacao = document.getElementById("Plantacao");
 const dinheiro = document.getElementById("valor");
 const relogio = document.getElementById("relogio");
 const dia = document.getElementById("dia");
+const SomPedra = new Audio('sons/picareta.wav');
+const SomErva = new Audio('sons/foice.wav');
+const SomArar = new Audio('sons/enxada.wav');
+const SomPlantar = new Audio('sons/plantar.wav');
+const SomDinheiro = new Audio('sons/dinheiro.wav');
+const SomDinheiro2 = new Audio('sons/dinheiro2.wav');
+const SomRegador = new Audio('sons/regador.wav');
 let money = 500;
 let day = 1;
 let potato_seeds = 0;
@@ -55,6 +62,7 @@ batata.addEventListener("click", () => {
     money -= 5;
     potato_seeds += 1;
     atualiza();
+    SomDinheiro.play();
   } else {
     semDinheiro();
   }
@@ -65,6 +73,7 @@ alho.addEventListener("click", () => {
     money -= 3;
     garlic_seeds += 1;
     atualiza();
+    SomDinheiro.play();
   } else {
     semDinheiro();
   }
@@ -75,6 +84,7 @@ cenoura.addEventListener("click", () => {
     money -= 4;
     carrot_seeds += 1;
     atualiza();
+    SomDinheiro.play();
   } else {
     semDinheiro();
   }
@@ -210,6 +220,7 @@ celulas.forEach((celula) => {
         money += 8;
       }
       atualiza();
+      SomDinheiro2.play();
     } else if (
       !celula.classList.contains("potato1") &&
       !celula.classList.contains("potato2") &&
@@ -243,65 +254,83 @@ celulas.forEach((celula) => {
       if (sementeSelecionada === "batata" && potato_seeds > 0) {
         celula.classList.add("potato1");
         potato_seeds--;
+        SomPlantar.play();
       } else if (sementeSelecionada === "alho" && garlic_seeds > 0) {
         celula.classList.add("garlic1");
         garlic_seeds--;
+        SomPlantar.play();
       } else if (sementeSelecionada === "cenoura" && carrot_seeds > 0) {
         celula.classList.add("carrot1");
         carrot_seeds--;
+        SomPlantar.play();
       }
     } else if (ferramentaSelecionada === "enxada") {
       if (celula.classList.contains("grama")) {
         celula.classList.remove("grama");
         celula.classList.add("arado");
+        SomArar.play();
       }
     } else if (ferramentaSelecionada === "picareta") {
       if (celula.classList.contains("pedra")) {
         celula.classList.remove("pedra");
         celula.classList.add("grama");
+        SomPedra.play();
       }
     } else if (ferramentaSelecionada === "foice") {
       if (celula.classList.contains("erva")) {
         celula.classList.remove("erva");
         celula.classList.add("grama");
+        SomErva.play();
       }
     } else if (ferramentaSelecionada === "regador") {
       if (celula.classList.contains("potato1")) {
         celula.classList.remove("potato1");
         celula.classList.add("potato1R");
+        SomRegador.play();
       } else if (celula.classList.contains("potato2")) {
         celula.classList.remove("potato2");
         celula.classList.add("potato2R");
+        SomRegador.play();
       } else if (celula.classList.contains("potato3")) {
         celula.classList.remove("potato3");
         celula.classList.add("potato3R");
+        SomRegador.play();
       } else if (celula.classList.contains("potato4")) {
         celula.classList.remove("potato4");
         celula.classList.add("potato4R");
+        SomRegador.play();
       } else if (celula.classList.contains("potato5")) {
         celula.classList.remove("potato5");
         celula.classList.add("potato5R");
+        SomRegador.play();
       } else if (celula.classList.contains("garlic1")) {
         celula.classList.remove("garlic1");
         celula.classList.add("garlic1R");
+        SomRegador.play();
       } else if (celula.classList.contains("garlic2")) {
         celula.classList.remove("garlic2");
         celula.classList.add("garlic2R");
+        SomRegador.play();
       } else if (celula.classList.contains("garlic3")) {
         celula.classList.remove("garlic3");
         celula.classList.add("garlic3R");
+        SomRegador.play();
       } else if (celula.classList.contains("garlic4")) {
         celula.classList.remove("garlic4");
         celula.classList.add("garlic4R");
+        SomRegador.play();
       } else if (celula.classList.contains("carrot1")) {
         celula.classList.remove("carrot1");
         celula.classList.add("carrot1R");
+        SomRegador.play();
       } else if (celula.classList.contains("carrot2")) {
         celula.classList.remove("carrot2");
         celula.classList.add("carrot2R");
+        SomRegador.play();
       } else if (celula.classList.contains("carrot3")) {
         celula.classList.remove("carrot3");
         celula.classList.add("carrot3R");
+        SomRegador.play();
       }
     }
     atualiza();
