@@ -246,3 +246,19 @@ body {
   background-size: cover;
   background-image: url(sprites/dinheiro.png);
 }
+
+.piscar {
+  animation: piscar-vermelho 0.5s infinite;
+}
+
+@keyframes piscar-vermelho {
+  0% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
