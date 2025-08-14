@@ -83,3 +83,45 @@ function semDinheiro() {
     dinheiro.classList.remove("piscar");
   }, 2000);
 }
+
+botaoBatata.addEventListener("click", () => {
+  ferramentaSelecionada = null;
+  document.body.style.cursor = "url('sprites/SB.png') 0 0, auto";
+  sementeSelecionada = "batata";
+});
+
+botaoAlho.addEventListener("click", () => {
+  ferramentaSelecionada = null;
+  document.body.style.cursor = "url('sprites/SA.png') 0 0, auto";
+  sementeSelecionada = "alho";
+});
+
+botaoCenoura.addEventListener("click", () => {
+  ferramentaSelecionada = null;
+  document.body.style.cursor = "url('sprites/SC.png') 0 0, auto";
+  sementeSelecionada = "cenoura";
+});
+
+picareta.addEventListener("click", () => {
+  ferramentaSelecionada = "picareta";
+  document.body.style.cursor = "url('sprites/P.png'), auto";
+  sementeSelecionada = null;
+});
+
+enxada.addEventListener("click", () => {
+  ferramentaSelecionada = "enxada";
+  document.body.style.cursor = "url('sprites/E.png'), auto";
+  sementeSelecionada = null;
+});
+
+regador.addEventListener("click", () => {
+  ferramentaSelecionada = "regador";
+  document.body.style.cursor = "url('sprites/R.png'), auto";
+  sementeSelecionada = null;
+});
+
+foice.addEventListener("click", () => {
+  ferramentaSelecionada = "foice";
+  document.body.style.cursor = "url('sprites/F.png'), auto";
+  sementeSelecionada = null;
+});
