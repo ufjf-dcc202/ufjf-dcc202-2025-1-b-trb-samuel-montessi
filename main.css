@@ -398,3 +398,9 @@ body {
 .carrot3R {
   background-image: url(sprites/Cenoura\ 3\ regado.png);
 }
+
+.potato6:hover,
+.garlic5:hover,
+.carrot4:hover{
+  cursor: url("sprites/cursor\ colher.png") 0 0, auto;
+}
