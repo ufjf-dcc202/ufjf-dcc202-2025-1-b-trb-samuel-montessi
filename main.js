@@ -52,6 +52,8 @@ batata.addEventListener("click", () => {
     money -= 5;
     potato_seeds += 1;
     atualiza();
+  } else {
+    semDinheiro();
   }
 });
 
@@ -60,6 +62,8 @@ alho.addEventListener("click", () => {
     money -= 3;
     garlic_seeds += 1;
     atualiza();
+  } else {
+    semDinheiro();
   }
 });
 
@@ -68,6 +72,8 @@ cenoura.addEventListener("click", () => {
     money -= 4;
     carrot_seeds += 1;
     atualiza();
+  } else {
+    semDinheiro();
   }
 });
 
