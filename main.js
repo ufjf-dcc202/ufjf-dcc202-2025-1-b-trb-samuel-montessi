@@ -70,3 +70,10 @@ cenoura.addEventListener("click", () => {
     atualiza();
   }
 });
+
+function semDinheiro() {
+  dinheiro.classList.add("piscar");
+  setTimeout(() => {
+    dinheiro.classList.remove("piscar");
+  }, 2000);
+}
