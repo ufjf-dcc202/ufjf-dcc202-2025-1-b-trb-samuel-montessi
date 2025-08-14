@@ -262,3 +262,115 @@ body {
     color: black;
   }
 }
+
+.arado {
+  background-image: url(sprites/solo.png);
+}
+
+.potato1 {
+  background-image: url(sprites/Batata\ 1.png);
+}
+
+.potato2 {
+  background-image: url(sprites/Batata\ 2.png);
+}
+
+.potato3 {
+  background-image: url(sprites/Batata\ 3.png);
+}
+
+.potato4 {
+  background-image: url(sprites/Batata\ 4.png);
+}
+
+.potato5 {
+  background-image: url(sprites/Batata\ 5.png);
+}
+
+.potato6 {
+  background-image: url(sprites/Batata\ 6.png);
+}
+
+.potato1R {
+  background-image: url(sprites/Batata\ 1\ regado.png);
+}
+
+.potato2R {
+  background-image: url(sprites/Batata\ 2\ regado.png);
+}
+
+.potato3R {
+  background-image: url(sprites/Batata\ 3\ regado.png);
+}
+
+.potato4R {
+  background-image: url(sprites/Batata\ 4\ regado.png);
+}
+
+.potato5R {
+  background-image: url(sprites/Batata\ 5\ regado.png);
+}
+
+.garlic1 {
+  background-image: url(sprites/Alho\ 1.png);
+}
+
+.garlic2 {
+  background-image: url(sprites/Alho\ 2.png);
+}
+
+.garlic3 {
+  background-image: url(sprites/Alho\ 3.png);
+}
+
+.garlic4 {
+  background-image: url(sprites/Alho\ 4.png);
+}
+
+.garlic5 {
+  background-image: url(sprites/Alho\ 5.png);
+}
+
+.garlic1R {
+  background-image: url(sprites/Alho\ 1\ regado.png);
+}
+
+.garlic2R {
+  background-image: url(sprites/Alho\ 2\ regado.png);
+}
+
+.garlic3R {
+  background-image: url(sprites/Alho\ 3\ regado.png);
+}
+
+.garlic4R {
+  background-image: url(sprites/Alho\ 4\ regado.png);
+}
+
+.carrot1 {
+  background-image: url(sprites/Cenoura\ 1.png);
+}
+
+.carrot2 {
+  background-image: url(sprites/Cenoura\ 2.png);
+}
+
+.carrot3 {
+  background-image: url(sprites/Cenoura\ 3.png);
+}
+
+.carrot4 {
+  background-image: url(sprites/Cenoura\ 4.png);
+}
+
+.carrot1R {
+  background-image: url(sprites/Cenoura\ 1\ regado.png);
+}
+
+.carrot2R {
+  background-image: url(sprites/Cenoura\ 2\ regado.png);
+}
+
+.carrot3R {
+  background-image: url(sprites/Cenoura\ 3\ regado.png);
+}
