@@ -125,3 +125,8 @@ foice.addEventListener("click", () => {
   document.body.style.cursor = "url('sprites/F.png'), auto";
   sementeSelecionada = null;
 });
+
+relogio.addEventListener("click", () => {
+  day += 1;
+  atualiza();
+});
