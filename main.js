@@ -13,6 +13,7 @@ const alho = document.getElementById("alho");
 const cenoura = document.getElementById("cenoura");
 const plantacao = document.getElementById("Plantacao");
 const dinheiro = document.getElementById("valor");
+const relogio = document.getElementById("relogio");
 const dia = document.getElementById("dia");
 let money = 500;
 let day = 1;
